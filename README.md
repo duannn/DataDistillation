@@ -3,14 +3,15 @@ Data Distillation: Data-efficient learning framework
 
 
 ### mnist_synthesis.py
-This file involves training ConvNet-3 on Real MNIST dataset, generation of synthetic MNIST data using Attention Matching, training ConvNet-3 on synthetic MNIST data, and test both the model trained on real dataset and the model on synthetic data on real MNIST test set. <br/>
+This file involves training ConvNet-3 on Real MNIST dataset, generation of synthetic MNIST data using Attention Matching, training ConvNet-3 on synthetic MNIST data, and test both the model trained on real dataset and the model on synthetic data on real MNIST test set. 
+
 Task 1: 2 a), b), c), and e) for MNIST dataset are completed in this file
 
 ### mhist_synthesis.py
 This file involves training ConvNet-7 on Real MHIST dataset, generation of synthetic MHIST data using Attention Matching, training ConvNet-7 on synthetic MHIST data, and test both models on real MHIST test set. <br/>
 Task 1: 2 c), b), c), and e) for MHIST dataset are completed in this file
 
-Note: since cross_architecture.py, NAS.py, and task2.py require to load the synthetic images, mnist_synthesis.py and mhist_synthesis.py need to be run first in order to generate and store the synthetic data. 
+####Note: since cross_architecture.py, NAS.py, and task2.py require to load the synthetic images, mnist_synthesis.py and mhist_synthesis.py need to be run first in order to generate and store the synthetic data. 
 
 ### gaussian_mnist.py
 This file carried out synthetic MNIST data generation using Attention Matching Alogrithm with random Gaussian noise initialization. <br/>
