@@ -8,7 +8,8 @@ This file involves training ConvNet-3 on Real MNIST dataset, generation of synth
 Task 1: 2 a), b), c), and e) for MNIST dataset are completed in this file
 
 ### mhist_synthesis.py
-This file involves training ConvNet-7 on Real MHIST dataset, generation of synthetic MHIST data using Attention Matching, training ConvNet-7 on synthetic MHIST data, and test both models on real MHIST test set. 
+This file involves training ConvNet-7 on Real MHIST dataset, generation of synthetic MHIST data using Attention Matching, training ConvNet-7 on synthetic MHIST data, and test both models on real MHIST test set. <br/>
+'./mhist_dataset/mhist_images' is the directory to MHIST datasets and './mhist_dataset/annotations.csv' is the directory to the corresponding csv file
 
 Task 1: 2 a), b), c), and e) for MHIST dataset are completed in this file
 
