@@ -13,7 +13,8 @@ This file involves training ConvNet-7 on Real MHIST dataset, generation of synth
 Task 1: 2 a), b), c), and e) for MHIST dataset are completed in this file
 
 
-#### Note: since cross_architecture.py, NAS.py, and task2.py require to load the synthetic images, mnist_synthesis.py and mhist_synthesis.py need to be run first in order to generate and store the synthetic data. The synthetic MNIST data would be stored in './mnist_synthesis' and synthetic MHIST data would be stored in './mhist_sythesis'. In other files which need to use synthetic data, they will load data from these two corresponding folder path. 
+### Note: 
+since cross_architecture.py, NAS.py, and task2.py require to load the synthetic images, mnist_synthesis.py and mhist_synthesis.py need to be run first in order to generate and store the synthetic data. The synthetic MNIST data would be stored in './mnist_synthesis' and synthetic MHIST data would be stored in './mhist_sythesis'. In other files which need to use synthetic data, they will load data from these two corresponding folder path. 
 
 
 ### gaussian_mnist.py
