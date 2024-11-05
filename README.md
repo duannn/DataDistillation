@@ -10,7 +10,7 @@ Task 1: 2 a), b), c), and e) for MNIST dataset are completed in this file
 ### mhist_synthesis.py
 This file involves training ConvNet-7 on Real MHIST dataset, generation of synthetic MHIST data using Attention Matching, training ConvNet-7 on synthetic MHIST data, and test both models on real MHIST test set. 
 
-Task 1: 2 c), b), c), and e) for MHIST dataset are completed in this file
+Task 1: 2 a), b), c), and e) for MHIST dataset are completed in this file
 
 #### Note: since cross_architecture.py, NAS.py, and task2.py require to load the synthetic images, mnist_synthesis.py and mhist_synthesis.py need to be run first in order to generate and store the synthetic data. 
 
