@@ -1,2 +1,3 @@
 # DataDistillation
-Data efficient learning framework
+Data Distillation: Data-efficient learning framework
+
